@@ -10,11 +10,11 @@ ttk.Label(ventana, text="Valor 1").place(x=20,y=30)
 ttk.Label(ventana, text="Valor 2").place(x=20,y=100)
 ttk.Label(ventana, text="Valor 3").place(x=20,y=170)
 
-txValor1 = tk.Entry(ventana,width=10)
+txValor1 = tk.Entry(ventana,width=10) 
 txValor1.place(x=20, y=50)
 
 txValor2 = tk.Entry(ventana, width=10)
-txValor2.place(x=20,y=120)
+txValor2.place(x=20,y=120) 
 
 txValor3 = tk.Entry(ventana,width=10,)
 txValor3.place(x=20,y=190)
