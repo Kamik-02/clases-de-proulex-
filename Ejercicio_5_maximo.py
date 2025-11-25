@@ -39,21 +39,11 @@ def mostrar_minimo():
     if valores:
         messagebox.showinfo("Mínimo", f"El valor mínimo es: {min(valores)}")
 
-def mostrar_Nmedio():
+def mostrar_Numero_medio():
     valores = obtener_valores()
     if valores:
         mediana = sorted(valores)[1]  # El número del medio
         messagebox.showinfo("Número del medio", f"El número de enmedio es: {mediana}")
-
-
-
-
-
-
-
-
-
-
 
 
 btMaximo= tk.Button(ventana, text="Maximo",width=10, command=mostrar_maximo)
@@ -62,36 +52,8 @@ btMaximo.place(x=20, y=250)
 btMinimo= tk.Button(ventana, text="Minimo",width=10,command=mostrar_minimo)
 btMinimo.place(x=120, y=250)
 
-
-btMedia= tk.Button(ventana, text="Nmedio",width=10,command=mostrar_Nmedio)
+btMedia= tk.Button(ventana, text="Numero_medio",width=15,command=mostrar_Numero_medio)
 btMedia.place(x=220,y=250)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ventana.mainloop()
